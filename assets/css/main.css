@@ -1709,8 +1709,8 @@ input, select, textarea {
     text-decoration: none;
     color: #fff;
     display: inline-block;
-    background-color: #e54b4b;
-    border: 2px solid #e54b4b;
+    background-color: transparent;
+    border: 2px solid #ffffff;
     padding: 10px 40px;
     border-radius: 5px;
     -webkit-transition: all .3s ease;
@@ -1721,8 +1721,9 @@ input, select, textarea {
 }
 
 .grax_tm_button a:hover {
-    background-color: transparent !important;
-    color: #000
+    background-color: rgba(255, 255, 255, 0.075) !important;
+    color: #ffffff;
+	border: 2px solid #ffffff13;
 }
 	#footer {
 		-moz-transition: -moz-transform 0.325s ease-in-out, -moz-filter 0.325s ease-in-out, opacity 0.325s ease-in-out;
@@ -1758,3 +1759,17 @@ input, select, textarea {
 		body.is-preload #footer {
 			opacity: 0;
 		}
+	.Icon-img-size{
+		width: 15px;
+	}
+	.list_inner{
+		display: flex;
+		align-items: center;
+	}
+	.list_inner span{
+		padding-left: 10px;
+	}
+	.iconLineNone{
+		border-bottom: none;
+		font-size: 20px;
+	}
