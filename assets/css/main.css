@@ -1232,7 +1232,7 @@ input, select, textarea {
 			-webkit-transition: -webkit-transform 0.325s ease-in-out, -webkit-filter 0.325s ease-in-out;
 			-ms-transition: -ms-transform 0.325s ease-in-out, -ms-filter 0.325s ease-in-out;
 			transition: transform 0.325s ease-in-out, filter 0.325s ease-in-out;
-			background-image: url("../../images/MyPortfolio\ Background.png");
+			background-image: url("../../images/MyPortfolioBackground.jpg");
 			background-position: center;
 			background-size: cover;
 			background-repeat: no-repeat;
@@ -1772,4 +1772,36 @@ input, select, textarea {
 	.iconLineNone{
 		border-bottom: none;
 		font-size: 60px;
+	}
+/* Project detail typography */
+
+	#main article .custom-scrollbar h3 {
+		font-size: 0.9rem;
+		letter-spacing: 0.2rem;
+		text-transform: uppercase;
+		margin: 1.5rem 0 0.6rem 0;
+		padding-bottom: 0.4rem;
+		border-bottom: solid 1px rgba(255, 255, 255, 0.15);
+	}
+
+	#main article .custom-scrollbar p {
+		margin: 0 0 0.9rem 0;
+	}
+
+	#main article .custom-scrollbar p.wip-note {
+		padding: 0.6rem 0.9rem;
+		border-left: solid 3px rgba(255, 255, 255, 0.25);
+		background-color: rgba(255, 255, 255, 0.05);
+		border-radius: 3px;
+	}
+
+	/* Skills list (.list had no styles previously) */
+
+	.list ul {
+		margin: 0 0 1.5rem 0;
+		padding: 0;
+	}
+
+	.list ul li {
+		padding: 0;
 	}
